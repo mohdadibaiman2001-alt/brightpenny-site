@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>BrightPenny</title>
+<style>
+  :root { --teal:#2EA4A8; --cream:#FBF7EE; --ink:#1C2626; --subtle:#6B7676; }
+  * { box-sizing: border-box; }
+  body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    background: var(--cream); color: var(--ink); margin: 0;
+    display: flex; align-items: center; justify-content: center; min-height: 100vh; }
+  main { max-width: 640px; padding: 48px 24px; text-align: center; }
+  h1 { font-size: 48px; margin: 0 0 8px; color: var(--teal); }
+  .tag { color: var(--subtle); font-size: 18px; margin: 0 0 32px; }
+  p { line-height: 1.6; }
+  nav { margin-top: 32px; display: flex; gap: 16px; justify-content: center; flex-wrap: wrap; }
+  nav a { color: var(--teal); text-decoration: none; font-weight: 600; padding: 10px 16px;
+    border: 1px solid var(--teal); border-radius: 10px; }
+  nav a:hover { background: var(--teal); color: white; }
+  footer { margin-top: 48px; color: var(--subtle); font-size: 13px; }
+</style>
+</head>
+<body>
+<main>
+  <h1>BrightPenny</h1>
+  <p class="tag">See your spending in hours of your life.</p>
+  <p>A personal finance tracker that converts every expense into
+    the hours of work it took to earn. Local-first, private by default,
+    yours forever.</p>
+  <nav>
+    <a href="privacy.html">Privacy Policy</a>
+    <a href="terms.html">Terms of Service</a>
+  </nav>
+  <footer>&copy; BrightPenny</footer>
+</main>
+</body>
+</html>
